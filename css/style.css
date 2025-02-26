@@ -9,10 +9,25 @@
     margin: 0 auto;
 }
 
+.center{
+    margin: 0 auto;
+}
+
 .p-55{
     padding: 55px 0;
 }
 
+.sb{
+    justify-content: space-between;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.p-rel{
+    position: relative;
+}
 
 /* Header */
 header{
@@ -64,5 +79,11 @@ div.jumbo-paragraph ul li{
 .jumbo-icon{
     font-size: 30px;
     margin-top: 40px;
-    padding-bottom: 10px;
 }
+
+div.jumbo-img img{
+    position: absolute;
+    object-fit: fill;
+    width: 70%;
+    height: 130%;
+}  
