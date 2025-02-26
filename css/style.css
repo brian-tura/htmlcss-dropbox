@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+.sm-col{
+    padding: 0 40px;
+}
+
 .center{
     margin: 0 auto;
 }
@@ -54,9 +58,12 @@ button{
     border: none;
 }
 
-/* Main jumbotron */
-main div:first-child{
+/* Main */
+
+/* jumbotron */
+.bg-jumbo{
     background-color: rgb(175, 213, 238);
+    border: solid 1 px lightgrey;
 }
 
 .title{
@@ -86,4 +93,56 @@ div.jumbo-img img{
     object-fit: fill;
     width: 70%;
     height: 130%;
-}  
+}
+
+/* Main container */
+.main-container{
+    margin: 150px auto;
+    border-top: solid 1px lightgray;
+    padding: 50px 0;
+}
+
+/* Payment plans */
+
+/* title */
+.payment-plans-title{
+    font-size: 25px;
+}
+
+/* selection */
+.payment-selection{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+ul.payment-selection li{
+    margin-right: 30px;
+}
+
+/* showcase */
+
+.showcase{
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase-container{
+    width: 30%;
+}
+
+.showcase-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border: solid 1px grey;
+}
+
+.large-plan{
+    width: 100%;
+    height: 100px;
+    background-color: goldenrod;
+    margin-top: 10px;
+}
