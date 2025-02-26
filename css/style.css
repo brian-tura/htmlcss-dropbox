@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 
+.main-col{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.p-55{
+    padding: 55px 0;
+}
+
 
 /* Header */
 header{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,9 +32,37 @@ header ul li{
     margin: 0 10px;
 }
 
-header button{
+button{
     background-color: blue;
     color: white;
-    padding: 5px 15px;
+    padding: 8px 15px;
+    border: none;
 }
 
+/* Main jumbotron */
+main div:first-child{
+    background-color: rgb(175, 213, 238);
+}
+
+.title{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.jumbo-paragraph{
+    width: 30%;
+}
+
+div.jumbo-paragraph ul{
+    list-style-type: none;
+}
+
+div.jumbo-paragraph ul li{
+    margin-bottom: 25px;
+}
+
+.jumbo-icon{
+    font-size: 30px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
