@@ -18,6 +18,9 @@
     padding: 55px 0;
 }
 
+.d-flex {
+    display: flex;
+}
 
 .p-rel {
     position: relative;
