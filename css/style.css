@@ -14,21 +14,10 @@
     padding: 0 40px;
 }
 
-.center {
-    margin: 0 auto;
-}
-
 .p-55 {
     padding: 55px 0;
 }
 
-.sb {
-    justify-content: space-between;
-}
-
-.d-flex {
-    display: flex;
-}
 
 .p-rel {
     position: relative;
