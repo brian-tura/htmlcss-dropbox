@@ -224,10 +224,35 @@ ul.perks-list li:first-child{
     font-weight: 700;
 }
 
+
+/* large plan */
 .large-plan{
     width: 100%;
-    height: 100px;
-    background-color: goldenrod;
-    margin-top: 10px;
+    border: 1px solid rgba(197, 197, 197, 0.829);;
+    margin-top: 40px;
 }
 
+.large-plan-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.large-plan-content{
+    margin: 25px;
+}
+
+.large-plan-contact{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.large-plan-description{
+    width: 75%;
+}
+
+div.large-plan-title button{
+    padding: 10px 40px;
+}
