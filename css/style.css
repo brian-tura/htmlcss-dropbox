@@ -337,6 +337,7 @@ div.operations-content h3{
 
 /* Footer */
 
+/* Footer lists */
 footer{
     background-color: rgb(15, 15, 15);
     color: white;
@@ -364,4 +365,17 @@ footer ul li:first-child{
 
 .footer-lists-content{
     margin: 60px 0;
+}
+
+/* language */
+.lang{
+    width: 10%;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+div.lang div{
+    margin-right: 5px;
 }
