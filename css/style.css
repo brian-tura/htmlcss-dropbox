@@ -339,4 +339,29 @@ div.operations-content h3{
 
 footer{
     background-color: black;
+    color: white;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+footer ul li:first-child{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.footer-lists-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-lists-content{
+    margin: 60px 0;
 }
