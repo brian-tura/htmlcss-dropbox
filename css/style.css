@@ -106,8 +106,8 @@ div.jumbo-img img{
 /* Payment plans */
 
 /* title */
-.payment-plans-title{
-    font-size: 25px;
+h2{
+    font-size: 40px;
 }
 
 /* selection */
@@ -288,4 +288,31 @@ div.find-txt-container button{
     border: 1px solid black;
     background-color: white;
     font-size: 15px;
+}
+
+/* Operations showcase */
+
+
+.operations-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 80px auto;
+}
+
+.operations-content{
+    width: 30%;
+}
+
+.operations-img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.holder{
+    width: 300pxpx;
+    height: 300px;
+    background-color: goldenrod;
 }
