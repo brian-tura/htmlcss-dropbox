@@ -131,7 +131,7 @@ ul.payment-selection li{
 
 .showcase-container{
     width: 30%;
-    height: 100%;
+    border: 1px solid rgba(197, 197, 197, 0.829);
 }
 
 .showcase-type{
@@ -139,12 +139,14 @@ ul.payment-selection li{
     align-items: center;
     justify-content: center;
     padding: 10px 0;
-    border: solid 1px rgba(197, 197, 197, 0.829);
-    
+    border-bottom: solid 1px rgba(197, 197, 197, 0.829);   
+}
+
+div.showcase-type i{
+    margin-right: 5px;
 }
 
 .showcase-description{
-    border: solid 1px rgba(197, 197, 197, 0.829);
     border-top: none;
     padding: 25px;
 }
@@ -221,8 +223,6 @@ ul.perks-list li i{
 ul.perks-list li:first-child{
     font-weight: 700;
 }
-
-
 
 .large-plan{
     width: 100%;
